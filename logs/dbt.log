@@ -1,0 +1,36 @@
+
+
+============================== 2022-10-17 20:19:50.019772 | 820b9fde-dfa2-460b-8acd-ebf003ed682c ==============================
+[0m20:19:50.019787 [info ] [MainThread]: Running with dbt=1.3.0
+[0m20:19:50.021778 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/heiko/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m20:19:50.022104 [debug] [MainThread]: Tracking: tracking
+[0m20:19:50.180939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feafe906ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feafe90b610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feafe906c50>]}
+[0m20:19:50.219722 [info ] [MainThread]: Creating dbt configuration folder at /Users/heiko/.dbt
+[0m20:19:50.348738 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-18 07:12:33.600063 | c1b2c792-a19e-41bb-8480-f67af3f420a7 ==============================
+[0m07:12:33.600078 [info ] [MainThread]: Running with dbt=1.3.0
+[0m07:12:33.602307 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/heiko/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m07:12:33.602729 [debug] [MainThread]: Tracking: tracking
+[0m07:12:33.652070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a1fdce90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a1fe1a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a1fdcb10>]}
+[0m07:12:33.657674 [debug] [MainThread]: Starter project path: /Users/heiko/anaconda3/envs/py37/lib/python3.7/site-packages/dbt/include/starter_project
+[0m07:12:47.947798 [info ] [MainThread]: Profile jaffle_shop written to /Users/heiko/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m07:12:47.948337 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:12:47.948898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a1fe1910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a208e750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7a208e690>]}
+[0m07:12:47.949281 [debug] [MainThread]: Flushing usage events
